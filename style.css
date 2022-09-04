@@ -1,0 +1,114 @@
+@import "reset.css";
+body {
+  background-color: #787878;
+}
+
+.mainArticle {
+  width: 60%;
+  height: 70%;
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+  padding: 30px;
+}
+
+.title {
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.flexContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+  height: 70%;
+}
+.inputSection {
+  width: 50%;
+  height: 100%;
+}
+.inputTags {
+  background-color: #f3f3f3;
+  padding: 10px;
+}
+
+.inputFlexContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  margin: 20px 0;
+}
+.inputFlexContainer div {
+  -ms-flex-preferred-size: 1;
+  flex-basis: 1;
+  -ms-flex-negative: 1;
+  flex-shrink: 1;
+}
+.inputTags input {
+  border-bottom: solid 1px black;
+  background-color: white;
+  width: 100%;
+}
+.inputNameBox {
+  width: 20%;
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+.addInputRoot {
+  width: 90%;
+  -webkit-box-flex: 3;
+  -ms-flex-positive: 3;
+  flex-grow: 3;
+}
+.inputTags .inputMoney {
+  width: 30%;
+  margin-right: 10px;
+}
+.inputTags .inputMemo {
+  width: 40%;
+}
+.moreInputBtnDiv {
+  width: 100%;
+  text-align: center;
+}
+.inputResult {
+  height: 100%;
+  padding: 20px;
+  margin-top: 30px;
+  border: 1px solid #dedede;
+}
+.bill {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+}
+.bill span:nth-child(1) {
+  -ms-flex-preferred-size: 30%;
+  flex-basis: 20%;
+  text-align: center;
+}
+.bill strong:nth-child(2) {
+  -ms-flex-preferred-size: 30%;
+  flex-basis: 40%;
+}
+.bill span:nth-child(3) {
+  -ms-flex-preferred-size: 30%;
+  flex-basis: 40%;
+}
+
+.inputInfo {
+  height: 75%;
+}
+
+.resultSection {
+  width: 50%;
+}

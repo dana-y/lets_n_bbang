@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="/style.css" />
+    <title>letsNbbang</title>
+  </head>
+  <body>
+    <div id="app">
+      <article class="mainArticle">
+        <h1 class="title">레츠엔빵 : 한번에 깔끔하게 정산!</h1>
+        <div class="flexContainer">
+          <section class="inputSection">
+            <div class="inputTags">
+              같이 여행 간 사람의 정보를 모두 입력해주세요!
+              <div class="inputFlexContainer">
+                <div class="inputNameBox">
+                  <input
+                    type="text"
+                    class="inputName"
+                    required
+                    placeholder="이름"
+                  />
+                </div>
+                <div class="addInputRoot">
+                  <span>✅</span>
+                  <input
+                    type="text"
+                    class="inputMoney"
+                    required
+                    placeholder="결제 한 금액"
+                  />
+                  <input type="text" class="inputMemo" placeholder="메모" />
+                </div>
+              </div>
+              <div class="moreInputBtnDiv">
+                <button id="moreInput">항목추가+</button>
+              </div>
+            </div>
+            <button class="addNodeBtn">추가</button>
+            <button>비우기</button>
+            <div class="inputResult">
+              <div class="bill">
+                <span class="billName">이름</span>
+                <strong>금액</strong>
+                <span>메모</span>
+              </div>
+              <hr />
+              <div class="inputInfo">
+                <div class="bill">
+                  <span class="billName">다은</span>
+                  <strong>16,000</strong>
+                  <span>갈비먹음</span>
+                </div>
+              </div>
+              <hr />
+              <div class="bill">
+                <span class="billName">합계</span>
+                <strong>16,000</strong>
+              </div>
+            </div>
+          </section>
+          <section class="resultSection"></section>
+        </div>
+      </article>
+    </div>
+    <script type="module" src="./script.js"></script>
+  </body>
+</html>
