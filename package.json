@@ -1,0 +1,21 @@
+{
+  "name": "letsnbbang",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dana-y/lets_n_bbang.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dana-y/lets_n_bbang/issues"
+  },
+  "homepage": ".",
+  "type": "module"
+}
